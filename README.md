@@ -176,3 +176,9 @@ for boosts on both performance and precision.
 #### Bug fixes
 - Catch `OverflowError` in the `expr.Overflow` parsing error.
 - Fix invalid typings with `Callable`
+
+### v0.4
+
+### What's new?
+- Increased Safe limits to Infinity
+- Added some new arguments to the evaluate() function
