@@ -16,11 +16,11 @@ __all__: Tuple[str, ...] = (
 state: Optional[Parser] = None
 
 
-def evaluate(expr: str, max_safe_number_input=float('inf'), max_exponent_inpur=float('inf'), max_factorial_input=float('inf'), /, *, cls: Type[C] = Decimal, **kwargs) -> C:
+def evaluate(expr: str, max_safe_number_input=float('inf'), max_exponent_input=float('inf'), max_factorial_input=float('inf'), /, *, cls: Type[C] = Decimal, **kwargs) -> C:
     global state
 
     if not state:
-        state = Parser(max_safe_number=max_safe_number_input, max_exponent=max_exponent_inpur, max_factorial=max_factorial_input,**kwargs)
+        state = Parser(max_safe_number=max_safe_number_input, max_exponent=max_exponent_input, max_factorial=max_factorial_input,**kwargs)
 
     return state.evaluate(expr, cls=cls)
 

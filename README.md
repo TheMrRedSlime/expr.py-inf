@@ -5,11 +5,19 @@
     <sup>
         A safe and simple math evaluator for Python, built with rply.
         <br />
-        <a href="https://pypi.org/project/expr.py/">
+        <a href="https://pypi.org/project/expr.py-inf/">
             <b>View on PyPI</b>
         </a>
     </sup>
 </p>
+
+
+Expr.py-inf is Expr.py But modified to remove the safe limits if anyone ever wanted to
+The Safe limits are also now configable
+
+```py
+expr.evaluate("1+1", max_safe_number_input=2147483347, max_exponent_input=2147483347, max_factorial_input=2147483347)
+```
 
 Expr.py is a simple but safe math expression evaluator made for Python.   
 It can evaluate pretty advanced math concepts without crashing your computer.
