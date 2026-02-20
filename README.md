@@ -179,6 +179,7 @@ for boosts on both performance and precision.
 - Fix invalid typings with `Callable`
 
 ### v0.4
+- Removed The Safe Limits for expr.py!
 
 ### What's new?
 - Increased Safe limits to Infinity
