@@ -1,5 +1,5 @@
-<h1 align="center">
-    expr.py
+4<h1 align="center">
+    expr.py-inf
 </h1>
 <p align="center">
     <sup>
@@ -11,6 +11,7 @@
     </sup>
 </p>
 
+[![Downloads](https://pepy.tech/badge/expr.py-inf)](https://pepy.tech/project/expr.py-inf)
 
 Expr.py-inf is Expr.py But modified to remove the safe limits if anyone ever wanted to
 The Safe limits are also now configable
